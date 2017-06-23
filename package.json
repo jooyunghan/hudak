@@ -1,0 +1,28 @@
+{
+  "name": "hudak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "shape.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.5.2",
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
